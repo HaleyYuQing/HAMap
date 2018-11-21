@@ -25,5 +25,6 @@ Pod::Spec.new do |s|
 
   s.source_files = "HAMap/HAMap/**/*.{h,m}"
 
-
+  s.dependency 'MJRefresh'
+  
 end

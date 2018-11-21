@@ -119,6 +119,7 @@
 				DAFE896A21A30D3500EA5850 /* Sources */,
 				DAFE896B21A30D3500EA5850 /* Frameworks */,
 				DAFE896C21A30D3500EA5850 /* Resources */,
+				5920F1BC2FFE1A858FF41A52 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,6 +176,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5920F1BC2FFE1A858FF41A52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HAMap/Pods-HAMap-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HAMap/Pods-HAMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D19CA30E22C2184FA8D82234 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

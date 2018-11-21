@@ -7,4 +7,5 @@ target 'HAMap' do
 
   # Pods for HAMap
 
+  pod 'MJRefresh'
 end
